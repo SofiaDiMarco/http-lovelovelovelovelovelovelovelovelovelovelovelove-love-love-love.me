@@ -1,5 +1,10 @@
+
 /*
 gradient
+
+꒰ ˶• ༝ •˶꒱
+./づᡕᠵ᠊ᡃ࡚ࠢ࠘ ⸝່ࠡࠣ᠊߯᠆ࠣ࠘ᡁࠣ࠘᠊᠊°.~♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎ ♡︎
+
 */
 
 var nbrCircle=2;
@@ -301,12 +306,6 @@ const messages = [
   "you are so captivating.",
   "you are so magical.",
   "you are always wonderful.",
-
-  
-  
-  
-  
-  // Add more messages here
 ];
 
 // Generate a random number between min and max
@@ -343,7 +342,7 @@ function createPopup(message) {
 }
 
 // Display pop-ups at different times
-for (let i = 30; i < 5000; i++) {
+for (let i = 40; i < 10000; i++) {
   setTimeout(function() {
     createPopup(messages[i % messages.length]);
   }, i * 1000);
@@ -353,6 +352,8 @@ for (let i = 30; i < 5000; i++) {
 /*
 affirmation game              
 */
+
+
 
 const screens = document.querySelectorAll(".screen");
 const chooseAffirmationButtons = document.querySelectorAll(".choose-affirmation-btn");
