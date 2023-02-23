@@ -1,6 +1,10 @@
 
 body
 
+
+
+
+
 {
   background-color: pink;
   background-image: url("https://cdn.glitch.global/6f7b55cd-05a2-4900-b541-8e133428b586/Untitled_Artwork%2013%20(kopia%202).jpg?v=1676366053755");
@@ -428,7 +432,7 @@ h1 {
 
 .choose-affirmation-btn {
   background-color: transparent;
-  border: 0px solid #ffffff;
+  border: 0px solid lime;
   color: transparent;
   cursor: pointer;
   font-family: inherit;
@@ -437,8 +441,8 @@ h1 {
 }
 
 .choose-affirmation-btn:hover {
-  background-color: #ffffff;
-  color: lime;
+  background-color: lime;
+  color: blue;
   border-radius: 50%;
   
 }
